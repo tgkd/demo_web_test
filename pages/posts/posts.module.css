@@ -1,0 +1,13 @@
+.row {
+  margin-bottom: 12px;
+  color: rgb(42, 42, 42);
+}
+
+.date {
+  color: #999;
+  font-size: 12px;
+}
+
+.postTitle {
+  margin-bottom: 0;
+}
