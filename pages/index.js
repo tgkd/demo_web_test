@@ -1,13 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Form from '../components/Form';
 import Layout from '../components/Layout';
 
 export default function Home() {
-  const handleSubmit = (values) => {
-    console.log('>>>', values);
-  };
   return (
     <div>
       <Head>
@@ -36,7 +32,6 @@ export default function Home() {
           eu mollit aute commodo. Minim duis exercitation laboris excepteur
           dolor labore qui nisi.
         </p>
-        <Form handleSubmit={handleSubmit} />
       </Layout>
     </div>
   );
