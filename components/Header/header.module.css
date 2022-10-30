@@ -11,3 +11,21 @@
   padding: 0;
   list-style: none;
 }
+
+.nav > li > a {
+  color: var(--sapphire-blue);
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.auth > button {
+  color: var(--yale-blue);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+}

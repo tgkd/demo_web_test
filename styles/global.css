@@ -6,9 +6,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  --laurel-green: #a6bb96ff;
+  --middle-blue-green: #7dcfb6ff;
+  --medium-turquoise: #53c5bdff;
+  --maximum-blue-green: #2abcc3ff;
+  --pacific-blue: #00b2caff;
+  --blue-green: #069ebdff;
+  --blue-ncs: #0c8ab0ff;
+  --cg-blue: #1176a3ff;
+  --sapphire-blue: #176296ff;
+  --yale-blue: #1d4e89ff;
 }
 
 * {
   box-sizing: border-box;
 }
-

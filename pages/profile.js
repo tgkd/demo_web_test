@@ -14,6 +14,7 @@ export default function Profile() {
 
   return (
     <Layout title="Profile">
+      <p>{session.user.email}</p>
       <p>
         This is a protected page. You can only see this page if you are signed
       </p>
