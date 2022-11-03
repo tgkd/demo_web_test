@@ -1,11 +1,10 @@
-describe('auth page', () => {
-  before(() => {
+import mockUser from '../fixtures/session.json';
+
+describe('auth', () => {
+  it('should show private content', () => {
+    cy.login(mockUser.user);
     cy.visit('/');
-  });
-  it('Login with Auth0', () => {
-    const username = ''; // Cypress.env('GOOGLE_USER');
-    const password = ''; // Cypress.env('GOOGLE_PW');
-    const loginUrl = Cypress.env('SITE_NAME');
-    const cookieName = Cypress.env('COOKIE_NAME');
+    cy.get('nav').contains('Profile').click();
+    cy.get('p').should('contain', 'This is a protected page.');
   });
 });
